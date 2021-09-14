@@ -1,5 +1,4 @@
 FROM debian:stretch
-MAINTAINER Rob Cherry
 
 ENV DEBIAN_FRONTEND noninteractive
 ENV DEBCONF_NONINTERACTIVE_SEEN true
