@@ -26,7 +26,7 @@ RUN apt-get -yqq update && \
     xvfb tinywm \
     fonts-ipafont-gothic xfonts-100dpi xfonts-75dpi xfonts-scalable xfonts-cyrillic \
     python \
-    supervisord && \
+    supervisor && \
     rm -rf /var/lib/apt/lists/*
 
 # Install Chrome WebDriver
